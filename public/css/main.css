@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#ul li {
+    list-style-type: none;
+}
+
+.container__entry {
+    max-width: 600px;
+    margin: 120px auto;
+}
+
+.container__entry-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#container__entry-label {
+    font-size: 15px;
+}
+
+#container__entry-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#header {
+    height: 100px;
+    background-color: #fafaf2;
+}
+
+#container {
+    width: 1140px;
+}
+
+.container {
+    padding: 0;
+}
+
+.container__header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#header__logo {
+    font-size: 22px;
+}
+
+.header__nav-item {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+#header__item-auth {
+    margin-left: 20px;
+}
+
+#search {
+    max-width: 600px;
+    margin: 40px auto;
+    margin-top: 30px;
+}
+
+.card__image {
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#cards__list {
+    display: flex;
+    justify-content: center;
+}
+
+#cards__list-item {
+    margin: 20px 30px;
+}
+
+#cards__list-item-edit {
+    margin: 20px 30px;
+    height: 325px;
+    position: relative;
+}
+
+#button__edit {
+    position: absolute;
+    width: 262px;
+    bottom: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#header__h1 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#container__add-anket {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+#container__anket {
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+#anketa__image {
+    margin: 0 auto;
+}
+
+#add__anket-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#footer__anketas {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#footer__last-anketas {
+    width: 480px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.container {
+    min-height: 310px;
+}
+
+.footer__icon {
+    width: 25px;
+    height: 25px;
+}
